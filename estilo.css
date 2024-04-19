@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h2{
+    background-color:#fdc0ec;
+    color:rgb(79, 3, 94);
+    font-size: 24px;
+    font-weight: 2000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+img{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin:1rem auto;
+}
+
+.li2{ 
+    display: inline;
+    list-style-type: none;
+    background-color: rgb(249, 217, 255);
+    padding: 8px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 217, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: seashell;
+}
+
+nav{
+    background-color: rgb(249, 217, 255);
+    padding: 1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: #3D0CA5;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    background-color:#FE9EE3;
+    color:black;
+    font-weight: bold;
+}
+
+h1{  
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    padding:10px;
+    background-color:#ff9be3;
+    color:rgb(79, 3, 94);
+    font-weight: 400;
+}
+
+.body1{
+    background-color: lightcyan;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+}
+.ulc{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(249, 217, 255);
+    padding: 1px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.li1{
+    display: inline;
+    list-style-type: none;
+    background-color: rgb(249, 217, 255);
+}
+
+table{
+    width: 100%;
+    background-color: rgb(197, 182, 253);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    text-align:center;
+    vertical-align: middle;
+    align-items: center;
+    margin-top: 2rem;
+    border:1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.th1{
+    background-color: #3D0CA5;
+    color: white;
+    padding: 5px;
+    border:1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
+    width: 1000px;  
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.td3{
+    padding: 15px;
+    border:1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 20px;  
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.th2{
+    background-color: #3D0CA5;
+    color: white;
+    padding: 10px;
+    border:1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
+    vertical-align: middle;
+    width: 280px;  
+    height: 25px;
+}
+.td2{
+    padding: 10px;
+    border:1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;  
+    height: 50px;
+}
+
+.p1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: #d0bcff;
+    padding: 10px;
+    text-align: left;
+}
+
+.mainser{
+    display: flex;
+    
+}
+.mainser img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin:1rem auto;
+}
+
+.mainser2{
+    display: flex;
+    
+}
+.mainser2 img{
+    width: 550px;
+    height: auto;
+    display: block;
+    margin:1rem auto;
+    border:3px solid;
+}
+
+.ul3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(249, 217, 255);
+    padding: 2px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 0rem;
+    margin-right: 5rem; 
+}
+.mainser1{
+    display: flex;
+    
+}
+.mainser1 img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin:1rem auto;
+}
+.li5 {
+    padding:10px;
+    list-style-type: none;
+}
+
+.logo2 {
+    width: 50px;
+    height: auto;
+    float:left;
+    margin-left: 1rem;
+}
+.logo3 {
+    width: 50px;
+    height: auto;
+    float:right;
+    margin-right: 1rem;
+}
+.p6{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222124;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 50%;
+    }
+    .mainser {
+        max-width:100%;
+    }
+
+    .mainser {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainser2 img {
+        max-width:100%;
+        
+    }
+
+    .mainser2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagen1{
+        max-width:50%;
+    }
+
+    .imagen2{
+        max-width:50%;
+    }
+    .logoo{
+        width:90%;
+        height:auto
+    }
+
+
+    .ul3 {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .th1 {
+        width:100%;
+        font-size: 12px;
+    }
+    .td3 {
+        width:100%;
+        font-size: 12px;
+    }
+    table {
+        width:100%;
+    }
+   
+    
+    .th2, .td2 {
+        width:100%;
+        border-bottom: 1px solid black;
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+
+
+
+  
+
+
+  
+     
