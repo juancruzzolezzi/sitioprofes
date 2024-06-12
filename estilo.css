@@ -4,6 +4,10 @@
 }
 
 
+footer {
+    margin-top: 20%;
+}
+
 h2{
     background-color:#fdc0ec;
     color:rgb(79, 3, 94);
@@ -15,10 +19,19 @@ h2{
     margin-bottom: 1rem;
 }
 img{
-    width: 500px;
+    width: 600px;
     height: auto;
     display: block;
     margin:1rem auto;
+    
+}
+.logoo{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin:1rem auto;
+    margin-top:4rem;
+    border:2px solid;
 }
 
 .li2{ 
@@ -73,14 +86,16 @@ header{
 }
 
 h1{  
+    display:flex;
     font-family: "Anton", sans-serif;
     font-style: normal;
-    text-align: center;
-    justify-content: center;
     padding:10px;
     background-color:#ff9be3;
     color:rgb(79, 3, 94);
     font-weight: 400;
+    text-align: center;
+    margin-left:32rem;
+    
 }
 
 .body1{
@@ -235,6 +250,7 @@ table{
     height: auto;
     display: block;
     margin:1rem auto;
+    border:2px solid;
 }
 .li5 {
     padding:10px;
@@ -263,6 +279,102 @@ table{
     text-align: center;
 }
 
+body.dark-mode {
+    background-color: black;
+    color: rgb(64, 0, 116);
+}
+
+header.dark-mode {
+    background-color: rgb(64, 0, 116);
+    color: white;
+
+}
+h1.dark-mode {
+    background-color: rgb(64, 0, 116);
+    color: white;
+}
+
+#modooscuro {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    float:right;
+    margin-right: 2rem;
+    margin-top: 1.6rem;
+}
+
+.p1.dark-mode {
+    background-color: #2b2c2c;
+    color: white;
+}
+h2.dark-mode {
+    background-color: rgb(64, 0, 116);
+    color: white;
+}
+.th1.dark-mode {
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 0, 116);
+}
+.th2.dark-mode {
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 0, 116);
+}
+.td3.dark-mode {
+    color: rgb(255, 255, 255);
+    background-color: #242433;
+}
+.td2.dark-mode {
+    color: rgb(255, 255, 255);
+    background-color: #242433;
+}
+#modooscuro:hover {
+    color: #464646;
+    cursor: pointer;
+}
+#sun-icon {
+    color: white;
+}
+body.dark-mode #sun-icon {
+    color: yellow;
+}
+.contacto input, .contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contacto textarea {
+    resize: vertical;
+}
+
+.contacto button {
+    background-color: #3D0CA5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left:55px;
+    margin-top:50px;
+}
+textarea {
+    height: 50px; 
+}
+input, textarea {
+    font-family: Arial, sans-serif; 
+}
+.contacto label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+
 @media (max-width: 768px) {
     img {
         width: 50%;
@@ -287,11 +399,13 @@ table{
     }
 
     .imagen1{
-        max-width:50%;
+        max-width:40%;
+        border:2px solid;
     }
 
     .imagen2{
-        max-width:50%;
+        max-width:40%;
+        border:2px solid;
     }
     .logoo{
         width:90%;
@@ -310,18 +424,31 @@ table{
     }
     .td3 {
         width:100%;
-        font-size: 12px;
+        font-size: 13px;
     }
     table {
         width:100%;
+        table-layout: fixed;
     }
    
     
     .th2, .td2 {
         width:100%;
         border-bottom: 1px solid black;
-        font-size: 10px;
+        font-size: 10.4px;
         padding: 5px;
+    }
+    h1{
+        margin-left: 10rem;
+        text-align: center;
+    }
+    #modooscuro {
+        float:right;
+        margin-top: 4.1rem;
+        margin-right:-7.3%;
+    }
+    .contacto form {
+        margin-left: 32px;
     }
 }
 
